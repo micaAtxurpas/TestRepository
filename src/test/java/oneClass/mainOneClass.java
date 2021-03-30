@@ -23,12 +23,6 @@ public class mainOneClass {
 				"/Users/micadeguzman/Documents/_Automation/Selenium/browserDrivers/geckodriver");
 		FirefoxDriver driver = new FirefoxDriver();
 
-		/*
-		 * System.setProperty("webdriver.chrome.driver",
-		 * "/Users/micadeguzman/Documents/_Automation/Selenium/browserDrivers/chromedriver"
-		 * ); ChromeDriver driver = new ChromeDriver();
-		 */
-
 		driver.manage().window().maximize();
 		driver.get("https://edo-dev-data-engineering.globe.com.ph/sat/fso-customer/?ref=RlNPOm10ZXN0MQ%3D%3D");
 		// driver.get("https://edo-dev-data-engineering.globe.com.ph/sat/fso-customer");
